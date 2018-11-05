@@ -1,0 +1,7 @@
+{
+  "name": "lectorQR",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
