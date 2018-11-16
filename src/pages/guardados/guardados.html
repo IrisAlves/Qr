@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Guardar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Pagina Guardar Datos!</h2>
+  <ion-list>
+    <button ion-item  *ngFor="let item of historial; let i =index " (click)="abrir_scan(i)">
+      <b>{{item.info}}</b> 
+      <p>{{item.tipo}}</p></button>
+ 
+  </ion-list>
+ 
+</ion-content>
